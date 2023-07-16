@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	scroll-behavior: smooth;
+}
+h2,h3{
+    font-weight: 700;
+}
+p,
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+p{
+	color: #727272;
+}
+a:focus,
+button:focus,
+input:focus{
+	outline: none;
+}
+a:hover,
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+}
+.img-fluid{
+    width: 100%;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.common-btn{
+    padding: 20px 24px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    cursor: pointer;
+}
+/*-- header-section-start --*/
+/*-- nav-bar-start --*/
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 0;
+}
+.nav{
+    padding: 0px 0px 100px;
+}
+.nav .nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .nav-section .nav-logo h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.nav .nav-section .nav-menu{
+    display: flex;
+}
+.nav .nav-section .nav-menu li{
+    margin-left: 35px;
+}
+.nav .nav-section .nav-menu li a{
+    font-size: 18px;
+    color: #424242;
+    font-weight: 500;
+}
+/*-- nav-bar-end --*/
+
+/*-- banner-start --*/
+.banner{
+    text-align: center;
+}
+.banner .banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+}
+.banner .banner-content h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 15px;
+}
+.banner .banner-content p{
+    margin-bottom: 32px;
+}
+.banner .banner-img{
+    margin-top: 50px;
+}
+/*-- banner-end --*/
+/*-- header-section-end --*/
+
+/*-- tem-section-start --*/
+.tem{
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    gap: 75px;
+}
+.tem .tem-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+.tem .tem-contant h2{
+    font-size: 45px;
+}
+.tem .tem-contant h2 .quick{
+    color: #727272;
+    font-weight: 500;
+}
+.tem .tem-contant h2 .of{
+    color: #131313;
+    font-weight: 700;
+}
+.tem .tem-contant h2 .features{
+    color: #ff900E;
+    font-weight: 700;
+}
+.tem .tem-contant p{
+    margin: 24px 0 32px;
+}
+/*-- tem-section-end --*/
