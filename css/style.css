@@ -137,3 +137,119 @@ header{
     margin: 24px 0 32px;
 }
 /*-- tem-section-end --*/
+
+/*-- feature-section-start --*/
+.feature-section{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    gap: 145px;
+}
+.feature-section .feature-content .feature-hadding h2{
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #ff900e;
+    padding-left: 21px;
+    margin-bottom: 24px;
+    
+}
+.feature-section .feature-content .feature-hadding p{
+    margin-bottom: 30px;
+}
+.feature-section .feature-content .single-feature{
+    padding: 30px 40px 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-section .feature-content .single-feature h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.feature-section .feature-img .feature-expe{
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    background-color: #FF900E;
+    border-radius: 8px;
+    width: 340px;
+    position: relative;
+    top: -90px;
+}
+.feature-section .feature-img img{
+    margin-left: 90px;
+}
+.feature-section .feature-img .feature-expe h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+.feature-section .feature-img .feature-expe p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+/*-- feature-section-end --*/
+
+/*-- facts-section-start --*/
+.facts{
+    margin-top: 130px;
+}
+.facts .facts-hadding{
+    margin-bottom: 100px;
+}
+.facts .facts-hadding h2{
+    margin-bottom: 24px;
+    font-size: 45px;
+    color: #131313;
+}
+.facts .facts-box{
+    display: flex;
+    justify-content: space-around;
+}
+.facts .facts-box .facts-single-box{
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+.facts .facts-box .facts-single-box h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin: 2px 0;
+}
+/*-- facts-section-end --*/
+
+/*-- sponsor-section-end --*/
+.sponsor-section{
+    margin-top: 180px;
+}
+.sponsor-section .sponsor-hadding{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsor-section .sponsor-hadding h2{
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.sponsor-section .sponsors{
+    display: flex;
+    justify-content: space-between;
+}
+/*-- sponsor-section-end --*/
+
+/*-- footer-section-start --*/
+footer{
+    margin: 130px 0 215px;
+}
+.footer-section{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff4e7;
+    border-radius: 8px;
+}
+/*-- footer-section-end --*/
